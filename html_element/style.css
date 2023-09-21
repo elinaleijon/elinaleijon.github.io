@@ -1,12 +1,16 @@
 body {
     background-color: crimson;
 }
-
+/*Använder id för elementet och detta är en kommentar i css*/
+#mindiv{
+    padding: 50px;
+}
 table, th, td {
     border:2px solid black;
     width: 400px;
 
   }
+  /*Här använder vi klass i stället till elementet*/
   .hundar {
     width: 200px;
 
@@ -15,3 +19,4 @@ table, th, td {
     font-style: italic;
     text-decoration: underline;
   }
+
