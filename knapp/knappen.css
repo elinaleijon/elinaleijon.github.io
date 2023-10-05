@@ -1,0 +1,20 @@
+body{
+background-color: rgb(59, 144, 105);
+color: beige;
+
+}
+
+button{
+    width: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+h3{
+    margin-left: 20px;
+}
+.taltext{
+    margin-left: 40px;
+}
+.main{
+    margin-left: 670px;
+}
