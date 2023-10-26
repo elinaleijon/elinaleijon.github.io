@@ -32,7 +32,7 @@ else{
 antalgissningar++
     }
 else{
-    p_svar.innerHTML=`Looser`
+    p_svar.innerHTML=`Looser!!`
 }
 
 }
