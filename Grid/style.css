@@ -1,0 +1,14 @@
+.grid-container {
+display: grid;
+column-gap: 50px;
+row-gap: 100px;
+gap: 50px;
+grid-template-columns: auto auto auto;
+background-color: violet;
+padding: 10px;
+color: black;
+
+}
+body {
+    background-color:rgb(219, 168, 219);
+}

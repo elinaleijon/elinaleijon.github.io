@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.item6 { grid-area: footer; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: violet;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Söta hundar</h1>
+    <div class="grid-container">
+        
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <img width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7uzjK4NvYbImiMYG5R4rNHJ4BTZg2rajEqQ&usqp=CAU" alt=""> 
+        <img width= "200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbAf0NVD76WEwwTXbIRLewEQAlcJUlza2wA&usqp=CAU" alt="">
+        <img width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlq2Ey8iyfalMrYqIcKsF8jYMs9z2bO9g1SQ&usqp=CAU" alt="">
+        <img width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRquLcvJbTu20hAMqT0s8kEdUpJ6TZzS12bPC-uRCLsaT5mfSQWc_nHUqsOzyjVXZfDCn8&usqp=CAU" alt="">
+        <img width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ020AiQV4j8xveOCXu4lYT0pZFCFBrRAel5ulkIszTG2gylwAhJ_HguojayhJeNa3Az0&usqp=CAU" alt="">
+        <img width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ072UhQ6Jj1vwkiAlmzifetq2TFrqwqPLE5ns_p9QgVZ2CCoNXxwkdGklYg8JlXgWmYyE&usqp=CAU" alt="">
+
+    </div>
+
+
+
+
+</body>
+</html>
