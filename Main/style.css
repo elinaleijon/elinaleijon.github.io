@@ -14,7 +14,7 @@
   
   a:after {
     border-radius: 1em;
-    border-top: .1em solid #2c2d2c;
+    border-top: .1em solid rgb(131, 131, 131);
     content: "";
     position: absolute;
       right: 100%;
