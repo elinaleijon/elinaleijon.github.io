@@ -34,19 +34,19 @@ body{
 .Bio {
             
     display: grid;
-    grid-template-columns: auto auto auto;
-
-    padding: 10px;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    height: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 60px;
+    grid-gap: 20px;
 }
 
 .Grid-item {
-
+  display: flex;
+  color: rgb(131, 131, 131);
     border: 4px solid cornsilk;
     padding: 20px;
     font-size: 25px;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -59,6 +59,7 @@ body{
 
 
 }
+
 
 
 
@@ -77,19 +78,35 @@ button:visited {
 
 
 .grid-container {
-    display: grid;
+    display: flex;
     grid-template-rows: repeat(5, 100px);
-    grid-gap: 120px;
+    grid-gap: 90px;
     grid-auto-flow: column;
     border: 4px solid cornsilk;
     padding: 90px;
 
+    
+  
 }
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
 
 .grid-item {
 
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: cornsilk;
+   
+    
 
 }
+.img1 { flex: 3.3344; }
+.img2 { flex: 5.1000; }
+.img3 { flex: 3.3344; }
+.img4 { flex: 5.5144; }
+.img5 { flex: 4.6900; }

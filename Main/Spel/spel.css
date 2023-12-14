@@ -1,0 +1,61 @@
+canvas {
+    border:4px solid cornsilk
+
+ 
+}
+body {
+    background-color: rgb(153, 189, 189);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Grid-item {
+    color: rgb(131, 131, 131);
+    background-color: transparent;
+    text-decoration: none;
+}
+.bio{
+    
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    padding: 10px;
+  }
+  .grid-item {
+  
+    border: 4px solid cornsilk;
+    padding: 20px;
+    font-size: 25px;
+    
+  }
+  .reload {
+    border: 3px solid cornsilk
+  }
+  .länkar {
+    margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 20px;
+  border: 3px solid cornsilk
+  
+}
+
+    
+
+a:link {
+  color: rgb(131, 131, 131);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(131, 131, 131);
+  background-color: transparent;
+  text-decoration: none;
+  border-top: .1em solid rgb(131, 131, 131);
+}

@@ -16,7 +16,7 @@
     border-radius: 1em;
     border-top: .1em solid rgb(131, 131, 131);
     content: "";
-    position: absolute;
+    position: relative;
       right: 100%;
       bottom: .14em;
       left: 0;
