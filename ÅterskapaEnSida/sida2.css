@@ -1,0 +1,68 @@
+
+.allt{
+  margin: auto;
+
+ 
+}
+
+
+
+
+.square {
+    position: absolute;
+    margin-right: auto;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(255, 89, 0);
+    left: 80px;
+    margin-top: -85px;
+  }
+
+
+
+
+    
+
+
+body{
+    display: flex;
+    margin-left: 300px;
+    float: left;
+    width: 980px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: orange;
+    background-color: black;
+}
+.Ln{
+    margin-top: 100px;
+}
+.a{
+    color: red;
+}
+.arrow {
+    border: solid orange;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
