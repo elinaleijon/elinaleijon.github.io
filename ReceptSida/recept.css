@@ -1,0 +1,69 @@
+body{
+    color: rgb(199, 115, 115);
+    background-color: rgb(235, 208, 172);
+}
+
+
+.h{
+    background-color: black;
+    border: 2px solid rgb(199, 115, 115);
+}
+
+.recept{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.bild{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.b1{
+    border: 2px solid rgb(199, 115, 115);
+    border-radius: 10px;
+    
+}
+.b2{
+ border: 2px solid rgb(199, 115, 115);
+    border-radius: 10px;
+}
+.b3{
+    border: 2px solid rgb(199, 115, 115);
+    border-radius: 10px;
+}
+.namn{
+    border: 2px solid rgb(199, 115, 115);
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  
+}
+.a1{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: rgb(199, 115, 115);
+}
+.a2{
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: rgb(199, 115, 115);
+}
+.a3{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: rgb(199, 115, 115);
+}
+a:visited {
+    color:rgb(199, 115, 115);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(199, 115, 115);
+    text-decoration: none;
+}
