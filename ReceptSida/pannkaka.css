@@ -1,45 +1,47 @@
-
-
-body{
+body {
     background-color: rgb(235, 208, 172);
     color: rgb(181, 104, 104);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.ett{
-font-size: large;
-text-align: center;
+
+.ett {
+    font-size: large;
+    text-align: center;
 
 
 }
 
-.ingr{
+.ingr {
     display: grid;
-    
+
     border: 2px solid rgb(199, 115, 115);
-   
+
     grid-template-columns: repeat(1, 1fr);
 }
+
 .grid-item {
     background-color: rgb(235, 208, 172);
-   
+
     padding: 10px;
     font-size: 30px;
     text-align: center;
     margin-right: auto;
-  }
- .grid-tem{
-    
+}
+
+.grid-tem {
+
     background-color: rgb(235, 208, 172);
     border: 2px solid rgb(199, 115, 115);
     padding: 10px;
     font-size: 30px;
     text-align: center;
     margin-right: auto;
- } 
- .bild{
+}
+
+.bild {
     float: right;
     position: absolute;
     width: 510px;
     margin-left: 1005px;
     border: 2px solid rgb(199, 115, 115);
- }
+}
