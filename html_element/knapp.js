@@ -1,6 +1,6 @@
 
 function knappTryck(){
-    alert("Hej, dehär var ju lite kul!")
+    alert("Hallå!")
     //En kommentar i javascript fil
     console.log("En variabel")
 }
