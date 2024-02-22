@@ -1,0 +1,43 @@
+body {
+    display: inline;
+    background-color:rgb(238, 238, 180)
+
+}
+.namn{
+    text-align: center;
+    color: darkslategray;
+}
+.vl{
+    border-left: 6px solid darkslategray;
+    height: 800px;
+    position: absolute;
+    left: 20%;
+    margin-left: -3px;
+    top: 0;
+}
+    .hl{
+      color: darkslategray;  
+      
+      
+      
+    }
+    .sidor{
+        display: grid;
+        grid-template-columns: auto;
+       
+    }
+    .text{
+        text-align: center;
+      font-size: medium;
+      font-family:cursive;
+    }
+    .circle
+  {
+    width: 140px;
+    height: 140px;
+    background: darkslategray; 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+    margin-left: 230px;
+  }
